@@ -447,6 +447,18 @@ body {
     margin-left: 10px;
     color: var(--secondary-color);
 }
+.contact .info .social a:hover i {
+    transform: scale(1.2, 1.2);
+}
+.contact .info .social a:hover:first-of-type i {
+    color: red;
+}
+.contact .info .social a:hover:nth-child(2) i {
+    color: blue;
+}
+.contact .info .social a:hover:last-of-type i {
+    color: #03a9f4;
+}
 @media (max-width: 767px) {
   .contact .info .label,
   .contact .info .link {
@@ -468,6 +480,6 @@ body {
 .footer span a {
     color: var(--main-color, #10cab7);
     font-weight: bold;
-		text-decoration: none;
+	text-decoration: none;
 }
 /* End Footer */
