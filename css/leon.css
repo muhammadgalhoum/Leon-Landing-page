@@ -119,13 +119,13 @@ body {
 }
 .header .links ul {
     position: absolute;
-    list-style: none;
+		right: 0;
+    top: calc(100% + 15px);
     padding: 0;
     margin: 0;
-    background-color: #f6f6f6;
+    list-style: none;
     min-width: 200px;
-    right: 0;
-    top: calc(100% + 15px);
+    background-color: #f6f6f6;
     display: none;
     z-index: 1;
 }
@@ -189,8 +189,7 @@ body {
 /* Start Features */
 .features {
     padding-top: var(--section-padding, 40px);
-    padding-bottom: var(--section-padding, 60px);
-    /* background-color: var(--section-background, #f6f6f6); */
+    padding-bottom: var(--section-padding, 40px);
 }
 .features .container {
     display: grid;
@@ -287,7 +286,7 @@ body {
 /* Start Portfolio */
 .portfolio {
     padding-top: var(--section-padding, 40px);
-    padding-bottom: var(--section-padding, 60px);
+    padding-bottom: var(--section-padding, 40px);
     background-color: var(--section-background, #f6f6f6);  
 }
 .portfolio .portfolio-content {
@@ -333,13 +332,15 @@ body {
     border: 2px solid #777;
 }
 .portfolio button:hover {
-	background-color: var(--section-background, #f6f6f6);
+	color: white;
+	background-color: #10cab7;
+	border-color: #10cab7;
 }
 /* End Portfolio */
 /* Start About */
 .about{
     padding-top: var(--section-padding, 40px);
-    padding-bottom: calc(var(--section-padding, 60px) + 60px);
+    padding-bottom: calc(var(--section-padding, 40px) + 60px);
 }
 .about .about-content {
     display: flex;
@@ -414,27 +415,27 @@ body {
 /* Start Contact */
 .contact {
     padding-top: var(--section-padding, 40px);
-    padding-bottom: var(--section-padding, 60px);
+    padding-bottom: var(--section-padding, 40px);
     background-color: var(--section-background, #f6f6f6);   
 }
 .contact .info {
     padding-top: var(--section-padding, 40px);
-    padding-bottom: var(--section-padding, 60px);
+    padding-bottom: var(--section-padding, 40px);
     text-align: center;
 }
 .contact .info .label {
     font-size: 35px;
     font-weight: 800;
-    color: var(--secondary-color, #2c4755);
     letter-spacing: -2px;
     margin-bottom: 15px;
+    color: var(--secondary-color, #2c4755);
 }
 .contact .info .link {
    display: block;
    font-size: 35px;
    font-weight: 800;
-   color: var(--main-color, #10cab7);
    text-decoration: none;
+   color: var(--main-color, #10cab7);
 }
 .contact .info .social {
     display: flex;
