@@ -326,14 +326,10 @@ body {
 	background-color: #fff;
 	word-spacing: -1px;
 	font-weight: bold;
-	text-transform: uppercase;
+	text-transform: capitalize;
+	text-decoration: none;
 	font-size: 14px;
 	border: 2px solid #777;
-}
-.portfolio .more:hover {
-	color: white;
-	background-color: #10cab7;
-	border-color: #10cab7;
 }
 /* End Portfolio */
 /* Start About */
