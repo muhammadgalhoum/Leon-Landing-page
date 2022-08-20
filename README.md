@@ -1,2 +1,2 @@
 # Leon-Landing-page
-Landing page using HTML @ CSS
+Landing page using HTML & CSS
