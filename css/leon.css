@@ -162,7 +162,7 @@ body {
 /* Start Landing Section */
 .landing {
 	position: relative;
-	background-image: url(../images/landing.jpg);
+	background-image: url(../images/landing.webp);
 	background-size: cover;
 	height: calc(100vh - 64px);
 }
