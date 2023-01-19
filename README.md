@@ -1,2 +1,2 @@
-# Leon-Landing-page
-Landing page using HTML & CSS
+# Leon Template
+Leon Template using HTML, CSS, and JavaScript
